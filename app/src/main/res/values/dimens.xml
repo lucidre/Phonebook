@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="metrics_2">2dp</dimen>
+    <dimen name="metrics_4">4dp</dimen>
+    <dimen name="metrics_6">6dp</dimen>
+    <dimen name="metrics_8">8dp</dimen>
+    <dimen name="metrics_10">10dp</dimen>
+    <dimen name="metrics_14">14dp</dimen>
+    <dimen name="metrics_16">16dp</dimen>
+    <dimen name="metrics_18">18dp</dimen>
+    <dimen name="metrics_20">20dp</dimen>
+    <dimen name="metrics_22">22dp</dimen>
+    <dimen name="metrics_26">26dp</dimen>
+    <dimen name="metrics_28">28dp</dimen>
+    <dimen name="metrics_30">30dp</dimen>
+    <dimen name="metrics_34">34dp</dimen>
+    <dimen name="metrics_36">36dp</dimen>
+    <dimen name="metrics_38">38dp</dimen>
+    <dimen name="metrics_40">40dp</dimen>
+    <dimen name="metrics_42">42dp</dimen>
+    <dimen name="metrics_46">46dp</dimen>
+    <dimen name="metrics_48">48dp</dimen>
+    <dimen name="metrics_50">50dp</dimen>
+    <dimen name="metrics_52">52dp</dimen>
+    <dimen name="metrics_56">56dp</dimen>
+    <dimen name="metrics_60">60dp</dimen>
+    <dimen name="metrics_70">70dp</dimen>
+    <dimen name="metrics_80">80dp</dimen>
+    <dimen name="metrics_90">90dp</dimen>
+    <dimen name="metrics_96">96dp</dimen>
+    <dimen name="metrics_100">100dp</dimen>
+    <dimen name="metrics_110">110dp</dimen>
+    <dimen name="metrics_120">120dp</dimen>
+    <dimen name="metrics_130">130dp</dimen>
+    <dimen name="metrics_140">140dp</dimen>
+    <dimen name="metrics_150">150dp</dimen>
+    <dimen name="metrics_160">160dp</dimen>
+    <dimen name="metrics_170">170dp</dimen>
+    <dimen name="metrics_200">200dp</dimen>
+    <dimen name="metrics_230">230dp</dimen>
+    <dimen name="metrics_250">250dp</dimen>
+    <dimen name="metrics_280">280dp</dimen>
+
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+
+</resources>

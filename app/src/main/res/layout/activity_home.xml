@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/layoutAppBar"
+            layout="@layout/activity_home_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true">
+
+            <!--android:layout_gravity="start"-->
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/layoutContact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/metrics_52"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/metrics_16"
+                            android:layout_marginTop="@dimen/metrics_16">
+
+                            <ImageView
+                                android:layout_width="@dimen/metrics_30"
+                                android:layout_height="@dimen/metrics_30"
+                                android:src="@drawable/contact"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="Contacts"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_16"
+                                android:layout_marginTop="@dimen/metrics_4"
+                                android:layout_marginLeft="@dimen/metrics_6" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutCall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/metrics_16">
+
+                            <ImageView
+                                android:layout_width="@dimen/metrics_30"
+                                android:layout_height="@dimen/metrics_30"
+                                android:src="@drawable/call"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="Call Log"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_16"
+                                android:layout_marginTop="@dimen/metrics_4"
+                                android:layout_marginLeft="@dimen/metrics_6" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layoutSMS"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/metrics_16">
+
+                            <ImageView
+                                android:layout_width="@dimen/metrics_30"
+                                android:layout_height="@dimen/metrics_30"
+                                android:src="@drawable/sms"
+                                android:layout_gravity="center" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:text="SMS"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_16"
+                                android:layout_marginTop="@dimen/metrics_4"
+                                android:layout_marginLeft="@dimen/metrics_6" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>
